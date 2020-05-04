@@ -10,7 +10,7 @@ import com.meritamerica.assignment5.exceptions.NoSuchResourceFoundException;
 
 public class BankAccount {
 
-	@NotBlank(message = "Balance is required")
+	
 	private double balance;
 	
 	private double interestRate;
